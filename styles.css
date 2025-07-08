@@ -1,0 +1,68 @@
+body{
+    background: url(elegantbackground.png);
+    background-size: cover;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+h1{
+    font-family: 'Aboreto';
+    font-size: 50px;
+    text-align: center;
+}
+header >p{
+    font-family: 'Alegreya';
+    font-size: 22px;
+    text-align: center;
+}
+img{
+    width: 290px;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 40px 0 0 40px;
+    transition:  0.5s ease-in-out;
+    
+}
+img:hover{
+    transform: scale(1.05);
+    width: 270px;
+    border-radius: 40px 40px 40px 40px;
+}
+.men-content{
+    box-sizing: content-box;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 900px;
+    height: 350px;
+    border-radius: 40px 0 40px 40px;
+    margin: 50px 20px;
+    overflow: hidden;
+    box-shadow: 0 0 30px 5px #e2b857;
+    background-color: rgba(55, 50, 100, 0.7);
+}
+.desc > p{
+    font-size: 18px;
+    font-family: Monospace;
+    font-weight: 700;
+    
+}
+.desc > h2{
+    font-family: 'Adamina';font-size: 30px;
+    text-transform: uppercase;
+}
+.desc {
+    padding: 20px;
+    opacity: 0;
+    transform: translateY(75px);
+    transition: opacity 0.8s ease-in, transform 1.5s ease-in-out;
+}
+.desc.visible {
+    opacity: 0.7;
+    transform: translateY(0);
+}
+.handsomes{
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
