@@ -40,7 +40,7 @@ img:hover{
     box-shadow: 0 0 30px 5px #e2b857;
     background-color: rgba(55, 50, 100, 0.7);
     transition: 
-    transform 0.4s cubic-bezier(0.4, 0.2, 0.2, 1);
+    transform 0.4s cubic-bezier(0.4, 0.2, 0.2, 1),
     box-shadow 0.4s cubic-bezier(0.4, 0.2, 0.2, 1);
 }
 .men-content:hover{
